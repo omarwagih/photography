@@ -395,7 +395,9 @@ main {
   grid-template-areas: "header" "main" "footer"; }
   @media (max-width: 768px) {
     .content--fixed {
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; 
+    } 
+  }
 
 .content--fixed a {
   pointer-events: auto; }
