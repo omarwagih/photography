@@ -12,8 +12,8 @@ body {
 	margin: 0;
 	--color-text: #111;
 	--color-bg: #f7f7f7;
-	--color-link: #ff1662;
-	--color-link-hover: #900935;
+	--color-link: #d31334;
+	--color-link-hover: #a81926;
 	--aspect-ratio: 1/1.5;
 	--imgwidthmax: 500px;
 	--size-title: 10rem;
@@ -28,9 +28,9 @@ body {
 
 .demo-1 {
 	--aspect-ratio: 32/17;
-	font-size: 1.25rem;
+	font-size: 1.55rem;
 	/*font-family: Poppins, sans-serif;*/
-	font-family:  -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+	font-family:  Calibre, sans-serif;
 	--size-title: 15vw;
 }
 
@@ -74,6 +74,7 @@ a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
+	font-weight: 500 !important;
 
 	 -o-transition:color .4s ease-out, background 1s ease-in;
   -ms-transition:color .4s ease-out, background 1s ease-in;
